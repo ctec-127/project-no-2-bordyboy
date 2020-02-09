@@ -4,4 +4,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.turtles {
+    width:100%;
+}
+
+.turtlesText {
+    position: absolute;
+    bottom: 60px;
+    left:30%;
+    font-size: 30px;
+    outline-color: black;
+}
+
+.turtlesContainer {
+    position: relative;
+  text-align: center;
+  color: white;
 }
